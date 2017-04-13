@@ -1,0 +1,70 @@
+<?php
+//text
+$_['text_tourSpecial'] = "Tour du lịch nổi bật";
+$_['text_select'] = "CHỌN";
+$_['text_infants'] = "Em bé";
+$_['text_dayall'] = "Cả ngày";
+$_['text_morning'] = "Buổi sáng";
+$_['text_promo_code'] = "Mã khuyến mãi";
+$_['text_checkout'] = "Ngày trả";
+$_['text_kids'] = "Trẻ em";
+$_['text_adults'] = "Người lớn";
+$_['text_rooms'] = "Phòng";
+$_['text_checkin'] = "Ngày nhận phòng";
+$_['text_destination'] = "Nơi tới";
+$_['text_input_destination'] = "Nhập một điểm đến hoặc khách sạn";
+$_['text_buttonsearch'] = "Tìm kiếm";
+$_['text_datetime'] = "Ngày khởi hành";
+$_['text_leaving_city'] = "Nhập tên thành phố"; 
+$_['text_leaving'] = "Địa điểm đi";
+$_['text_goto'] = "Địa điểm đến";  
+$_['heading_title'] = "ĐẶT VÉ MÁY BAY QUỐC NỘI & QUỐC TẾ";
+$_['txt_tourin'] = "Tour trong nước";
+$_['txt_tourout'] = "Tour nước ngoài";
+$_['txt_searchtour'] = "Tìm Tour";
+$_['txt_classsearchtour'] = "cmdsearchtour";
+$_['namecus'] = "Tên người đặt";
+$_['address_hotel'] = "Khách sạn tại";
+$_['countdate'] = "Số ngày đặt";
+$_['text_dateout']       = 'Ngày đi';
+$_['text_datein']        = 'Ngày về';
+$_['add_in']        = 'Ðiểm đi';
+$_['add_out']       = 'Ðiểm Đến';
+$_['dateout']       = 'Ngày đi';
+$_['datein']        = 'Ngày về';
+$_['add_in']        = 'Ðiểm đi';
+$_['add_out']       = 'Ðiểm Đến';
+$_['quanliti_man']      = 'Số luợng nguời lớn(>12 tuổi)';
+$_['quanliti_child']    = 'Số luợng trẻ em(2-12 tuổi)';
+$_['quanliti_baby']     = 'Số luợng em bé(<2 tuổi)';
+$_['text_heading']      = "Tìm kiếm chuyến bay";
+$_['text_search']       = "Tìm kiếm";
+$_['selectdepadd']      = 'Chọn điểm khởi hành';
+$_['selectretpadd']      = 'Chọn điểm đến';
+$_['text_searchve']     = 'Tìm chuyến bay';
+$_['text_chonve']       = 'Chọn chuyến bay';
+$_['text_cus']          = 'Hành khách';
+$_['text_payment']      = 'Thanh toán';
+$_['text_compare']      = 'Xác nhận';
+$_['text_detail']       = "Xem chi tiết";
+$_['suport_online']     = "Tôi muốn hỗ trợ trực tuyến ";
+$_['text_go'] ='Lượt đi';
+$_['text_rountrip'] = "Hành trình : ";
+$_['text_res'] = 'Lượt về';
+$_['text_childcount'] = "Trẻ em ";
+$_['text_autcount'] = "Người lớn ";
+$_['text_babycount'] = "Em bé ";
+$_['flights_checkout'] = "Ngày về";
+$_['flights_checkin']  = "Ngày đi";
+$_['text_loaive'] = "Hành trình";
+$_['text_khuhoi'] = "Khứ hồi";
+$_['text_motluot'] = "Một chiều";
+$_['text_from'] = "Ðiểm đi";
+$_['text_to'] = "Điểm đến";
+//tab
+$_['tab_hotel']    = 'Khách sạn';
+$_['tab_flight']    = 'Chuyến bay';
+$_['tab_tour']    = 'Du lịch';
+
+
+?>
