@@ -24,3 +24,31 @@
 2017-04-13 12:56:45 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\tgmss\controller\module\searchve.php on line 69
 2017-04-13 12:56:45 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\tgmss\controller\module\searchve.php on line 71
 2017-04-13 12:56:45 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\tgmss\controller\module\searchve.php on line 81
+2017-04-13 13:05:24 - PHP Notice:  Undefined variable: header in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 1
+2017-04-13 13:05:24 - PHP Notice:  Undefined variable: footer in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 133
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: column_left in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 1
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: text_edit in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 24
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: entry_name in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 29
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: name in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 31
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: entry_name in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 31
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: error_name in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: entry_limit in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 38
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: limit in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 40
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: entry_limit in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 40
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: entry_width in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 44
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: width in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 46
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: entry_width in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 46
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: error_width in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 47
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: entry_height in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 53
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: height in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 55
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: entry_height in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 55
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: error_height in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 56
+2017-04-13 13:09:12 - PHP Notice:  Undefined variable: status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 65
+2017-04-13 13:10:36 - PHP Notice:  Undefined variable: column_left in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 1
+2017-04-13 13:10:36 - PHP Notice:  Undefined variable: text_edit in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 24
+2017-04-13 13:10:36 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-13 13:12:32 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-13 13:13:15 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-13 13:14:27 - PHP Notice:  Undefined variable: searchve_status in D:\wamp\www\8trip\tgmss\view\template\module\category.tpl on line 32
+2017-04-13 13:14:31 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-13 13:15:18 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32

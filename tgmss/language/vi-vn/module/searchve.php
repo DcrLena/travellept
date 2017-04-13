@@ -1,23 +1,14 @@
 <?php
 // Heading
-$_['heading_title']       = 'Tím vé trực tuyến';
+$_['heading_title']       = 'Tìm vé trực tuyến';
 
 // Text
-$_['text_module']         = 'Modules';
-$_['text_success']        = 'Thành công đã sửa xong module Tím vé trực tuyến';
-$_['text_content_maintop']    = 'Top';
-$_['text_content_top']    = 'Content Top';
-$_['text_content_bottom'] = 'Content Bottom';
-$_['text_column_left']    = 'Column Left';
-$_['text_column_right']   = 'Column Right';
-$_['text_content_positionheader'] = 'đầu trang';
+$_['text_module']         = 'Mô-đun';
+$_['text_success']        = 'Thành công: Bạn đã sửa đổi mô-đun Tìm vé trực tuyến!';
+$_['text_edit']        = 'Chỉnh sửa Mô đun hiện Tìm vé trực tuyến';
 
 // Entry
-$_['entry_layout']        = 'Layout:';
-$_['entry_position']      = 'Position:';
-$_['entry_status']        = 'Status:';
-$_['entry_sort_order']    = 'Sort Order:';
+$_['entry_status']        = 'Trạng thái:';
 
 // Error
-$_['error_permission']    = 'Cảnh báo ! bạn không có quyền truy cập module Tím vé trực tuyến!';
-?>
+$_['error_permission']    = 'Cảnh báo: Bạn không được phép sửa đổi mô-đun Tìm vé trực tuyến!';
