@@ -462,7 +462,7 @@ if(isset($layout_id) && $layout_id == 30) { ?>
 				}
 
 	//--></script>
-<?php }else if($postion=="content_top" || $postion=="content_positionheader" || $postion=="content_flash"){ ?>
+<?php }else if($layout_id==1){ ?>
 <div class="search-box-wrapper">
 	<div class="search-box container">
 		<div class="center-block-wrapper full-width">

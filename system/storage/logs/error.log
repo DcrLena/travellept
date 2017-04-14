@@ -52,3 +52,107 @@
 2017-04-13 13:14:27 - PHP Notice:  Undefined variable: searchve_status in D:\wamp\www\8trip\tgmss\view\template\module\category.tpl on line 32
 2017-04-13 13:14:31 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
 2017-04-13 13:15:18 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-14 4:45:06 - PHP Notice:  Undefined variable: searchve_status in D:\wamp\www\8trip\tgmss\view\template\module\category.tpl on line 32
+2017-04-14 4:45:34 - PHP Notice:  Undefined variable: searchve_status in D:\wamp\www\8trip\tgmss\view\template\module\category.tpl on line 32
+2017-04-14 4:45:46 - PHP Notice:  Undefined variable: searchve_status in D:\wamp\www\8trip\tgmss\view\template\module\category.tpl on line 32
+2017-04-14 4:46:12 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-14 4:46:24 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-14 4:48:05 - PHP Notice:  Undefined variable: category_status in D:\wamp\www\8trip\tgmss\view\template\module\searchve.tpl on line 32
+2017-04-14 4:50:03 - PHP Notice:  Undefined index: position in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 7
+2017-04-14 4:50:03 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 7
+2017-04-14 4:50:03 - PHP Notice:  Undefined index: layout_id in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 8
+2017-04-14 4:50:03 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 8
+2017-04-14 4:50:03 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 13
+2017-04-14 4:50:03 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 14
+2017-04-14 4:51:56 - PHP Notice:  Undefined index: position in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 7
+2017-04-14 4:51:56 - PHP Notice:  Undefined index: layout_id in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 8
+2017-04-14 5:10:07 - PHP Notice:  Undefined index: position in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 8
+2017-04-14 5:10:07 - PHP Notice:  Undefined index: layout_id in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 9
+2017-04-14 5:22:00 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 47
+2017-04-14 5:22:00 - PHP Notice:  Indirect modification of overloaded property ControllerModuleSearchve::$data has no effect in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 48
+2017-04-14 5:22:00 - PHP Notice:  Undefined variable: setting in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 105
+2017-04-14 5:22:32 - PHP Notice:  Undefined variable: setting in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 105
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 125
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 125
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 125
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 125
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelImages in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 128
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 128
+2017-04-14 5:26:19 - PHP Warning:  Invalid argument supplied for foreach() in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 129
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$RoomTypes in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 136
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 136
+2017-04-14 5:26:19 - PHP Warning:  Invalid argument supplied for foreach() in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 137
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 152
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 152
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 155
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 155
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 156
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 156
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 157
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 157
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 158
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 158
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 158
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 158
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 159
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 159
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 160
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 160
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 161
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 161
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 162
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 162
+2017-04-14 5:26:19 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 163 and defined in D:\wamp\www\8trip\system\library\cart\currency.php on line 24
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 25
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 25
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 26
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 26
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 27
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 27
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 30
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 30
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 164
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 164
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 165
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 165
+2017-04-14 5:26:19 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 165 and defined in D:\wamp\www\8trip\system\library\cart\currency.php on line 24
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 25
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 25
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 26
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 26
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 27
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 27
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 30
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 30
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 166
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 166
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelSummary in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 167
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 167
+2017-04-14 5:26:19 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 167 and defined in D:\wamp\www\8trip\system\library\cart\currency.php on line 24
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 25
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 25
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 26
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 26
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 27
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 27
+2017-04-14 5:26:19 - PHP Notice:  Undefined variable: currency in D:\wamp\www\8trip\system\library\cart\currency.php on line 30
+2017-04-14 5:26:19 - PHP Notice:  Undefined index:  in D:\wamp\www\8trip\system\library\cart\currency.php on line 30
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelDetails in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 168
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 168
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelDetails in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 169
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 169
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelDetails in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 170
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 170
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelDetails in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 171
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 171
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelDetails in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 172
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 172
+2017-04-14 5:26:19 - PHP Notice:  Undefined property: stdClass::$HotelDetails in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 173
+2017-04-14 5:26:19 - PHP Notice:  Trying to get property of non-object in D:\wamp\www\8trip\catalog\controller\module\searchve.php on line 173
+2017-04-14 5:40:24 - PHP Notice:  Undefined variable: postion in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 465
+2017-04-14 5:40:24 - PHP Notice:  Undefined variable: postion in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 465
+2017-04-14 5:40:24 - PHP Notice:  Undefined variable: postion in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 465
+2017-04-14 5:40:24 - PHP Notice:  Undefined variable: loaive in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 817
+2017-04-14 5:40:24 - PHP Notice:  Undefined variable: nguoilon in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 818
+2017-04-14 5:40:24 - PHP Notice:  Undefined variable: chd_nd in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 819
+2017-04-14 5:40:24 - PHP Notice:  Undefined variable: INF in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 820

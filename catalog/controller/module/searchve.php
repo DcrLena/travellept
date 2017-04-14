@@ -1,113 +1,116 @@
-<?php 
+﻿<?php 
     class ControllerModuleSearchve extends Controller {
-        public function index($setting){ 
-		
+        public function index(){ 
             $this->delete_catche();
-
-            $this->data['postion']  = $setting['position'];
-            $this->data['layout_id'] = $setting['layout_id'];
-
+			if (isset($this->request->get['route'])) {
+				$route = (string)$this->request->get['route'];
+			} else {
+				$route = 'common/home';
+			}
             $this->document->addStyle('catalog/view/theme/default/stylesheet/form.css');
             $this->document->addStyle('catalog/view/theme/default/stylesheet/formleft.css');
             $this->document->addScript("catalog/view/javascript/script.js");            
-            $this->data['action'] = 'tim-ve-truc-tuyen';
-            $this->data['action_flight']= "tim-ve-truc-tuyen";
+            $data['action'] = 'tim-ve-truc-tuyen';
+            $data['action_flight']= "tim-ve-truc-tuyen";
             $this->language->load('module/searchve');
             $this->load->model('vemaybay/searchve');
-            $this->data['text_tourSpecial'] = $this->language->get('text_tourSpecial'); 
-            $this->data['text_select'] = $this->language->get('text_select'); 
-            $this->data['text_rountrip'] = $this->language->get('text_rountrip'); 
-            $this->data['text_search'] = $this->language->get('text_search');            
-            $this->data['text_didau'] = $this->language->get('text_didau');
-            $this->data['text_nhanphong'] = $this->language->get('text_nhanphong');
-            $this->data['text_traphong'] = $this->language->get('text_traphong');
-            $this->data['text_yet'] = $this->language->get('text_yet');
-            $this->data['text_18tuoi'] = $this->language->get('text_18tuoi');
-            $this->data['text_17tuoi'] = $this->language->get('text_17tuoi');
-            $this->data['text_chuoiks'] = $this->language->get('text_chuoiks');
-            $this->data['text_xephangsao'] = $this->language->get('text_xephangsao');
-            $this->data['text_timkiem'] = $this->language->get('text_timkiem');
-            $this->data['text_phong'] = $this->language->get('text_phong');
+            $data['text_tourSpecial'] = $this->language->get('text_tourSpecial'); 
+            $data['text_select'] = $this->language->get('text_select'); 
+            $data['text_rountrip'] = $this->language->get('text_rountrip'); 
+            $data['text_search'] = $this->language->get('text_search');            
+            $data['text_didau'] = $this->language->get('text_didau');
+            $data['text_nhanphong'] = $this->language->get('text_nhanphong');
+            $data['text_traphong'] = $this->language->get('text_traphong');
+            $data['text_yet'] = $this->language->get('text_yet');
+            $data['text_18tuoi'] = $this->language->get('text_18tuoi');
+            $data['text_17tuoi'] = $this->language->get('text_17tuoi');
+            $data['text_chuoiks'] = $this->language->get('text_chuoiks');
+            $data['text_xephangsao'] = $this->language->get('text_xephangsao');
+            $data['text_timkiem'] = $this->language->get('text_timkiem');
+            $data['text_phong'] = $this->language->get('text_phong');
 
-            $this->data['tab_hotel'] = $this->language->get('tab_hotel');
-            $this->data['tab_flight'] = $this->language->get('tab_flight');
-            $this->data['tab_tour'] = $this->language->get('tab_tour');
-            $this->data['text_leaving']=$this->language->get('text_leaving');
-            $this->data['text_leaving_city']=$this->language->get('text_leaving_city');
-            $this->data['text_goto']=$this->language->get('text_goto');
-            $this->data['text_datetime']=$this->language->get('text_datetime');
-            $this->data['text_buttonsearch']=$this->language->get('text_buttonsearch');
-            $this->data['text_destination']=$this->language->get('text_destination');
-            $this->data['text_checkin']=$this->language->get('text_checkin');
-            $this->data['text_checkout']=$this->language->get('text_checkout');
-            $this->data['text_rooms']=$this->language->get('text_rooms');
-            $this->data['text_adults']=$this->language->get('text_adults');
-            $this->data['text_kids']=$this->language->get('text_kids');
-            $this->data['text_promo_code']=$this->language->get('text_promo_code');
-            $this->data['text_dateout']=$this->language->get('text_dateout');
-            $this->data['text_datein']=$this->language->get('text_datein');
-            $this->data['text_morning']=$this->language->get('text_morning');
-            $this->data['text_dayall']=$this->language->get('text_dayall');
-            $this->data['text_infants']=$this->language->get('text_infants');
-            $this->data["date"]=date('d/m/Y');
-            $this->data["text_date"]="dd/mm/YYYY";        
+            $data['tab_hotel'] = $this->language->get('tab_hotel');
+            $data['tab_flight'] = $this->language->get('tab_flight');
+            $data['tab_tour'] = $this->language->get('tab_tour');
+            $data['text_leaving']=$this->language->get('text_leaving');
+            $data['text_leaving_city']=$this->language->get('text_leaving_city');
+            $data['text_goto']=$this->language->get('text_goto');
+            $data['text_datetime']=$this->language->get('text_datetime');
+            $data['text_buttonsearch']=$this->language->get('text_buttonsearch');
+            $data['text_destination']=$this->language->get('text_destination');
+            $data['text_checkin']=$this->language->get('text_checkin');
+            $data['text_checkout']=$this->language->get('text_checkout');
+            $data['text_rooms']=$this->language->get('text_rooms');
+            $data['text_adults']=$this->language->get('text_adults');
+            $data['text_kids']=$this->language->get('text_kids');
+            $data['text_promo_code']=$this->language->get('text_promo_code');
+            $data['text_dateout']=$this->language->get('text_dateout');
+            $data['text_datein']=$this->language->get('text_datein');
+            $data['text_morning']=$this->language->get('text_morning');
+            $data['text_dayall']=$this->language->get('text_dayall');
+            $data['text_infants']=$this->language->get('text_infants');
+            $data["date"]=date('d/m/Y');
+            $data["text_date"]="dd/mm/YYYY";        
 
-            $this->data['text_childcount'] = $this->language->get('text_childcount');
-            $this->data['text_autcount'] = $this->language->get('text_autcount');
-            $this->data['text_babycount'] = $this->language->get('text_babycount');
-            $this->data['text_childlim'] = $this->language->get('text_childlim');
-            $this->data['text_video'] = $this->language->get('text_video');
-            $this->data['text_camket'] = $this->language->get('text_camket');
-            $this->data['text_autlim'] = $this->language->get('text_autlim');
-            $this->data['text_inflim'] = $this->language->get('text_inflim');
-            $this->data['flights_checkout'] = $this->language->get('flights_checkout');
-            $this->data['flights_checkin'] = $this->language->get('flights_checkin');
-            $this->data['text_loaive'] = $this->language->get('text_loaive');
-            $this->data['text_khuhoi'] = $this->language->get('text_khuhoi');
-            $this->data['text_motluot'] = $this->language->get('text_motluot');
-            $this->data['text_from']  = $this->language->get('text_from');
-            $this->data['text_to']  = $this->language->get('text_to');
-            $this->data['thanhtoan'] = $this->url->link('information/information', 'information_id=9');
-            $this->data['datve'] = $this->url->link('information/information', 'information_id=8');            
-            $this->data['caccamket'] = $this->url->link('information/information', 'information_id=12');
-            $this->data['suport_online'] = $this->language->get('suport_online');
-            $this->data['textheading_title'] = $this->language->get('heading_title');
-            $this->data['text_licham'] = $this->language->get('text_licham');
-            $this->data['Testtimeoutin'] = $this->url->link('module/searchve/Testtimeoutin');
+            $data['text_childcount'] = $this->language->get('text_childcount');
+            $data['text_autcount'] = $this->language->get('text_autcount');
+            $data['text_babycount'] = $this->language->get('text_babycount');
+            $data['text_childlim'] = $this->language->get('text_childlim');
+            $data['text_video'] = $this->language->get('text_video');
+            $data['text_camket'] = $this->language->get('text_camket');
+            $data['text_autlim'] = $this->language->get('text_autlim');
+            $data['text_inflim'] = $this->language->get('text_inflim');
+            $data['flights_checkout'] = $this->language->get('flights_checkout');
+            $data['flights_checkin'] = $this->language->get('flights_checkin');
+            $data['text_loaive'] = $this->language->get('text_loaive');
+            $data['text_khuhoi'] = $this->language->get('text_khuhoi');
+            $data['text_motluot'] = $this->language->get('text_motluot');
+            $data['text_from']  = $this->language->get('text_from');
+            $data['text_to']  = $this->language->get('text_to');
+            $data['thanhtoan'] = $this->url->link('information/information', 'information_id=9');
+            $data['datve'] = $this->url->link('information/information', 'information_id=8');            
+            $data['caccamket'] = $this->url->link('information/information', 'information_id=12');
+            $data['suport_online'] = $this->language->get('suport_online');
+            $data['textheading_title'] = $this->language->get('heading_title');
+            $data['text_licham'] = $this->language->get('text_licham');
+            $data['Testtimeoutin'] = $this->url->link('module/searchve/Testtimeoutin');
             // tour
 
-            $this->data['txt_tourin'] = $this->language->get('txt_tourin'); 
-            $this->data['txt_tourout'] = $this->language->get('txt_tourout'); 
-            $this->data['txt_searchtour'] = $this->language->get('txt_searchtour'); 
-            $this->data['txt_classsearchtour'] = $this->language->get('txt_classsearchtour'); 
-            $this->data['dateout'] = $this->language->get('dateout'); 
-            $this->data['datein'] = $this->language->get('datein'); 
-            $this->data['add_in'] = $this->language->get('add_in'); 
-            $this->data['add_out'] = $this->language->get('add_out'); 
-            $this->data['text_rountrip'] = $this->language->get('text_rountrip'); 
-            $this->data['text_search'] = $this->language->get('text_search');
+            $data['txt_tourin'] = $this->language->get('txt_tourin'); 
+            $data['txt_tourout'] = $this->language->get('txt_tourout'); 
+            $data['txt_searchtour'] = $this->language->get('txt_searchtour'); 
+            $data['txt_classsearchtour'] = $this->language->get('txt_classsearchtour'); 
+            $data['dateout'] = $this->language->get('dateout'); 
+            $data['datein'] = $this->language->get('datein'); 
+            $data['add_in'] = $this->language->get('add_in'); 
+            $data['add_out'] = $this->language->get('add_out'); 
+            $data['text_rountrip'] = $this->language->get('text_rountrip'); 
+            $data['text_search'] = $this->language->get('text_search');
 
-            $this->data['xemdonhang'] = $this->url->link('information/xemdonhang');
-            $this->data['text_childcount'] = $this->language->get('text_childcount');
-            $this->data['text_autcount'] = $this->language->get('text_autcount');
-            $this->data['text_babycount'] = $this->language->get('text_babycount');
-            $this->data['flights_checkout'] = $this->language->get('flights_checkout');
-            $this->data['flights_checkin'] = $this->language->get('flights_checkin');
-            $this->data['text_loaive'] = $this->language->get('text_loaive');
-            $this->data['text_khuhoi'] = $this->language->get('text_khuhoi');
-            $this->data['text_motluot'] = $this->language->get('text_motluot');
-            $this->data['text_from']  = $this->language->get('text_from');
-            $this->data['text_to']  = $this->language->get('text_to');
-            $this->data['datve']=$this->url->link('news/news', '&catid=91&news_id=104');
-            $this->data['thanhtoan']=$this->url->link('news/news', '&catid=91&news_id=77'); 
-            $this->data['suport_online'] = $this->language->get('suport_online');
-            $this->data['textheading_title'] = $this->language->get('heading_title');
-            $this->data['text_searchair'] = $this->language->get('text_searchair');
-            $this->data['text_searchair1'] = $this->language->get('text_searchair1');
-            $this->data['text_licham'] = $this->language->get('text_licham');                
-            $this->data['action_view']=$this->url->link('product/search/view', '&product_id=');
-            // news
-			if($setting['layout_id'] == 29){   
+            $data['xemdonhang'] = $this->url->link('information/xemdonhang');
+            $data['text_childcount'] = $this->language->get('text_childcount');
+            $data['text_autcount'] = $this->language->get('text_autcount');
+            $data['text_babycount'] = $this->language->get('text_babycount');
+            $data['flights_checkout'] = $this->language->get('flights_checkout');
+            $data['flights_checkin'] = $this->language->get('flights_checkin');
+            $data['text_loaive'] = $this->language->get('text_loaive');
+            $data['text_khuhoi'] = $this->language->get('text_khuhoi');
+            $data['text_motluot'] = $this->language->get('text_motluot');
+            $data['text_from']  = $this->language->get('text_from');
+            $data['text_to']  = $this->language->get('text_to');
+            $data['datve']=$this->url->link('news/news', '&catid=91&news_id=104');
+            $data['thanhtoan']=$this->url->link('news/news', '&catid=91&news_id=77'); 
+            $data['suport_online'] = $this->language->get('suport_online');
+            $data['textheading_title'] = $this->language->get('heading_title');
+            $data['text_searchair'] = $this->language->get('text_searchair');
+            $data['text_searchair1'] = $this->language->get('text_searchair1');
+            $data['text_licham'] = $this->language->get('text_licham');                
+            $data['action_view']=$this->url->link('product/search/view', '&product_id=');
+            // news			
+			$layout_id = 0;
+			$data['layout_id'] = $layout_id = $this->model_design_layout->getLayout($route);
+			
+			if(isset($this->request->get['route']) &&  $this->request->get['route']== 'search/hotel'){   
 				$this->load->model('catalog/hotels');
 				 /*GET EXPERIA */ 
 				$nows = getdate();
@@ -155,9 +158,9 @@
 						); 
 					}
 					// active
-					$this->data['href_checkout'] = $this->url->link('checkout/carthotel', 'hotelId=' . $result->HotelInformationResponse->HotelSummary->hotelId);
+					$data['href_checkout'] = $this->url->link('checkout/carthotel', 'hotelId=' . $result->HotelInformationResponse->HotelSummary->hotelId);
 					
-					$this->data['hotel'] = array(
+					$data['hotel'] = array(
 					'hotelId' => $result->HotelInformationResponse->HotelSummary->hotelId,
 					'href' =>  $this->url->link('product/hotel','hotelId='.$result->HotelInformationResponse->HotelSummary->hotelId),
 					'name' => $result->HotelInformationResponse->HotelSummary->name,
@@ -181,70 +184,70 @@
 					'HotelImages' => $images,
 					'post' => isset($this->request->post)?$this->request->post: array(),
 					);          
-				}			
+				}	
 			}	
 			
             if (isset($this->request->post['hotelId'])) {
-                $this->data['hotelId'] = $this->request->post['hotelId'];
+                $data['hotelId'] = $this->request->post['hotelId'];
             }else if (isset($this->request->get['hotelId'])) {
-                $this->data['hotelId'] = $this->request->get['hotelId'];
+                $data['hotelId'] = $this->request->get['hotelId'];
             } else {
-                $this->data['hotelId'] = '';
+                $data['hotelId'] = '';
             }
 			if (isset($this->request->post['destinationString'])) {
-                $this->data['destinationString'] = $this->request->post['destinationString'];
+                $data['destinationString'] = $this->request->post['destinationString'];
             }else if (isset($this->request->get['destinationString'])) {
-                $this->data['destinationString'] = $this->request->get['destinationString'];
+                $data['destinationString'] = $this->request->get['destinationString'];
             } else {
-                $this->data['destinationString'] = '';
+                $data['destinationString'] = '';
             }
 			if (isset($this->request->post['destinationId'])) {
-                $this->data['destinationId'] = $this->request->post['destinationId'];
+                $data['destinationId'] = $this->request->post['destinationId'];
             }else if (isset($this->request->get['destinationId'])) {
-                $this->data['destinationId'] = $this->request->get['destinationId'];
+                $data['destinationId'] = $this->request->get['destinationId'];
             } else {
-                $this->data['destinationId'] = '';
+                $data['destinationId'] = '';
             }
 			if (isset($this->request->post['arrivalDate'])) {
-                $this->data['arrivalDate'] = $this->request->post['arrivalDate'];
+                $data['arrivalDate'] = $this->request->post['arrivalDate'];
             } else if (isset($this->request->get['arrivalDate'])) {
-                $this->data['arrivalDate'] = $this->request->get['arrivalDate'];
+                $data['arrivalDate'] = $this->request->get['arrivalDate'];
             } else {
-                $this->data['arrivalDate'] = '';
+                $data['arrivalDate'] = '';
             }
 			if (isset($this->request->post['departureDate'])) {
-                $this->data['departureDate'] = $this->request->post['departureDate'];
+                $data['departureDate'] = $this->request->post['departureDate'];
             }else if (isset($this->request->get['departureDate'])) {
-                $this->data['departureDate'] = $this->request->get['departureDate'];
+                $data['departureDate'] = $this->request->get['departureDate'];
             } else {
-                $this->data['departureDate'] = '';
+                $data['departureDate'] = '';
             }
 			if (isset($this->request->post['rooms'])) {
-                $this->data['rooms'] = $this->request->post['rooms'];
+                $data['rooms'] = $this->request->post['rooms'];
             }else if (isset($this->request->get['rooms'])) {
-                $this->data['rooms'] = $this->request->get['rooms'];
+                $data['rooms'] = $this->request->get['rooms'];
             } else {
-                $this->data['rooms'] = 1;
+                $data['rooms'] = 1;
             }
 			if (isset($this->request->post['adults'])) {
-                $this->data['adults'] = $this->request->post['adults'];
+                $data['adults'] = $this->request->post['adults'];
             }else if (isset($this->request->get['adults'])) {
-                $this->data['adults'] = $this->request->get['adults'];
+                $data['adults'] = $this->request->get['adults'];
             } else {
-                $this->data['adults'] = 2;
+                $data['adults'] = 2;
             }
 			if (isset($this->request->post['kids'])) {
-                $this->data['kids'] = $this->request->post['kids'];
+                $data['kids'] = $this->request->post['kids'];
             }else if (isset($this->request->get['kids'])) {
-                $this->data['kids'] = $this->request->get['kids'];
+                $data['kids'] = $this->request->get['kids'];
             } else {
-                $this->data['kids'] = 0;
+                $data['kids'] = 0;
             }
 			
 			if (isset($this->request->get['cat_id'])) {
-                $this->data['cat_id'] = $this->request->get['cat_id'];
+                $data['cat_id'] = $this->request->get['cat_id'];
             } else {
-                $this->data['cat_id'] = '';
+                $data['cat_id'] = '';
             }
 			
 			if (isset($this->request->get['catid'])) {
@@ -254,41 +257,41 @@
             }
 
             if (isset($parts[0])) {
-                $this->data['cat_id'] = $parts[0];
+                $data['cat_id'] = $parts[0];
             } else {
-                $this->data['cat_id'] = 0;
+                $data['cat_id'] = 0;
             }
 
             if (isset($parts[1])) {
-                $this->data['child_id'] = $parts[1];
+                $data['child_id'] = $parts[1];
             } else {
-                $this->data['child_id'] = 0;
+                $data['child_id'] = 0;
             }
-            if($this->data['cat_id'] == 84 || $this->data['child_id'] == 84){
+            if($data['cat_id'] == 84 || $data['child_id'] == 84){
                 $pagehotel= $pagetour = false;
                 $pageflight = true; 
-            }else if($this->data['cat_id'] == 101 || $this->data['child_id'] == 101){
+            }else if($data['cat_id'] == 101 || $data['child_id'] == 101){
                     $pagehotel = true;
                     $pagetour = $pageflight = false; 
                 }else{
                     $pagetour = $pageflight = false;
                     $pagehotel = true; 
             }
-             $this->data['pagehotel'] =$pagehotel;
-             $this->data['pageflight'] =$pageflight;
-             $this->data['pagetour'] =$pagetour;
+             $data['pagehotel'] =$pagehotel;
+             $data['pageflight'] =$pageflight;
+             $data['pagetour'] =$pagetour;
 
 
             if(isset($this->request->get['news_id'])){
-                $this->data['newid'] = $this->request->get['news_id'];
+                $data['newid'] = $this->request->get['news_id'];
             }else{
-                $this->data['newid'] =0;
+                $data['newid'] =0;
             }                    
             // news
 
 
             $this->load->model('module/searchve'); 
-            $this->data['name_tour']=$this->model_module_searchve->gettour();   
+            $data['name_tour']=$this->model_module_searchve->gettour();   
             $gettourSpecial=$this->model_module_searchve->gettourSpecial();//sửa 16/07/2015 
 
 
@@ -298,7 +301,7 @@
                 { 
                     if(isset($kq['district_from']) && $kq['district_from'] !=0 && $kq['district_to'] && $kq['district_to'] !=0)
                     {
-                        $this->data['gettourSpecial'][]=array(
+                        $data['gettourSpecial'][]=array(
                         'product_id' => $kq['product_id'],
                         'image' =>  HTTPS_IMAGE.$kq['image'],
                         'price' => str_replace(',','.',number_format($kq['price'])),
@@ -308,18 +311,9 @@
                         );
                     }
                 }
-
-                //utf8_substr(strip_tags(html_entity_decode($kq['description'], ENT_QUOTES, 'UTF-8')), 0, 20)
             }
 
-
-            if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/searchve.tpl')) 
-            {
-                $this->template = $this->config->get('config_template') . '/template/module/searchve.tpl';
-            }else{
-                $this->template = 'default/template/module/searchve.tpl';
-            }
-            $this->render(); 
+			return $this->load->view('module/searchve', $data);
         }
         function delete_catche(){
             $files = glob(DIR_CACHE.'dataflight/*'); // get all file names
@@ -407,8 +401,8 @@
             }
 			$this->load->model('catalog/hotels');    
 			$this->language->load('module/hotelcared');   
-			$this->data['heading_title'] = $this->language->get('heading_title');
-			$this->data['href_page'] = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];  
+			$data['heading_title'] = $this->language->get('heading_title');
+			$data['href_page'] = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];  
 			$url = '';          
 			if (isset($this->request->get['page'])) {
 				$page = $this->request->get['page'];
