@@ -1,0 +1,25 @@
+.optionred{
+	background: #eee;	
+	border: 1px solid #777!important;	
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
+}
+.optionred .ui-corner-all {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #eee; 
+	background: #eee; 
+	font-weight: bold; 
+	color: 777; 
+	font-weight: normal;
+}
+.optionred .ui-state-focus {
+	border: 1px solid #01b7f2; 
+	background: #01b7f2; 
+	font-weight: bold; 
+	color: #fff; 
+}

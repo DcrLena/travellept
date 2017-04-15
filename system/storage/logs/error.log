@@ -156,3 +156,27 @@
 2017-04-14 5:40:24 - PHP Notice:  Undefined variable: nguoilon in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 818
 2017-04-14 5:40:24 - PHP Notice:  Undefined variable: chd_nd in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 819
 2017-04-14 5:40:24 - PHP Notice:  Undefined variable: INF in D:\wamp\www\8trip\catalog\view\theme\default\template\module\searchve.tpl on line 820
+2017-04-15 7:27:17 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:27:18 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:27:18 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:27:30 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:29:08 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:29:09 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:29:09 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:29:10 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:29:11 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:31:29 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 19
+2017-04-15 7:31:29 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 22
+2017-04-15 7:31:29 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:31:30 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 17
+2017-04-15 7:31:30 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 22
+2017-04-15 7:31:30 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:31:31 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 17
+2017-04-15 7:31:31 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 22
+2017-04-15 7:31:31 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:31:31 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 17
+2017-04-15 7:31:31 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 22
+2017-04-15 7:31:31 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36
+2017-04-15 7:31:31 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 17
+2017-04-15 7:31:31 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in D:\wamp\www\8trip\catalog\controller\common\header.php on line 22
+2017-04-15 7:31:31 - PHP Notice:  Undefined variable: route in D:\wamp\www\8trip\catalog\view\theme\default\template\common\header.tpl on line 36

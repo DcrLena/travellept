@@ -13,7 +13,14 @@ class ControllerCommonHeader extends Controller {
 				$data['analytics'][] = $this->load->controller('analytics/' . $analytic['code'], $this->config->get($analytic['code'] . '_status'));
 			}
 		}
-
+		if(isset($this->request->get['route'])){
+			$data['route'] = $this->request->get['route'];
+		}else{
+			$data['route'] = '';
+		}
+		if($data['route']=="" || $data['route']=="common/home"){
+			$data['layoutId'] = 1;
+		}
 		if ($this->request->server['HTTPS']) {
 			$server = $this->config->get('config_ssl');
 		} else {

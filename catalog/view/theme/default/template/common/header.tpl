@@ -23,6 +23,33 @@
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+<!-- travel service -->
+
+<script type="text/javascript" src="catalog/view/javascript/jquery-ui-1.9.2/js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery-ui-1.9.2/js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<!--end fancybox-->
+<script type="text/javascript" src="catalog/view/javascript/jquery/tabs.js"></script>
+<!--<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/stylesheet.css" />-->
+<?php if($route=="" || $route=="common/home") { ?>
+<script type="text/javascript" src="catalog/view/javascript/jquery/jquery-1.7.1.min.js"></script>
+<?php }?>
+<?php foreach ($scripts as $script) { ?>
+<script type="text/javascript" src="<?php echo $script; ?>"></script>
+<?php } ?>
+<link rel="stylesheet" href="catalog/view/theme/default/stylesheet/css/bootstrap.min.css" />
+<link rel="stylesheet" href="catalog/view/theme/default/stylesheet/css/font-awesome.min.css" />
+<link rel="stylesheet" href="catalog/view/theme/default/stylesheet/css/animate.min.css" />    
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/css/settings.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/css/jquery.bxslider.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/css/flexslider.css" media="screen" />    
+<link id="main-style" rel="stylesheet" href="catalog/view/theme/default/stylesheet/css/style.css" />
+<link rel="stylesheet" href="catalog/view/theme/default/stylesheet/css/responsive.css" />      
+
+<!-- end travel service -->
+
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>

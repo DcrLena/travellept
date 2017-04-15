@@ -1,0 +1,509 @@
+/**search tiket **/
+.wrapfrmright{
+    color: #0270B5;
+    display: block;
+    float: left;
+    margin-right: 0;
+    margin-top: 0;
+    width: 355px;
+    height: auto;
+    position: static;
+        background: none repeat scroll 0 0 #006699;
+    -webkit-border-radius: 0px 10px 10px 10px;
+    -moz-border-radius: 0px 10px 10px 10px;
+    -khtml-border-radius: 0px 10px 10px 10px;
+    border-radius: 0px 10px 10px 10px;
+}
+.wrapfrmright form{
+    display:block;   
+}
+.wrapfrm aside label{    
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrapfrmright aside.first{
+    height:auto;  
+    width: 98%; 
+    margin:4px;
+}
+.wrapfrmright aside .content input.city[type="text"]{
+    font-size: 11px !important;
+}
+.ajax_loader{
+    /*  background: url(../image/loading42.gif) no-repeat;
+    width: 172px;
+    height: 30px;
+    top: 54px;
+    left: 20%;
+    position: absolute;
+    z-index: 99999;*/
+}
+table tr td.alignright{
+    text-align:right;
+    margin-right:15px;
+}
+.wrapfrmright aside.header header{
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    width: 100%;
+}
+.wrapfrmright aside.first .first-content {
+    padding: 0 15px;
+}
+
+.wrapfrmright aside.first .first-content header {
+}
+.wrapfrmright aside label{    
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrapfrmright aside.header header h2{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-align: left;
+    text-indent: 45px;
+    text-transform: uppercase;
+    background: url("../image/icon_bg_wrapfrm_home.png") no-repeat scroll 10px center;
+}
+.wrapfrmright aside.header {
+    height: 35px;
+    margin-top: 0;
+    position: relative;
+    
+    
+        background: url("../image/bg_wrapfrm_home.png") no-repeat scroll 0 0;
+    display: block;
+    width: 100%;
+    z-index: 999;
+}
+.wrapfrmright aside.header header h2{
+    line-height: 35px;
+    text-transform: uppercase;   
+}
+.wrapfrmright aside.first header {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.wrapfrmright aside header label.ht {
+    float: left;
+    padding-right: 20px;
+}
+.wrapfrmright aside header p{
+    width:30%; 
+    float:left;
+    margin: 0px 3px 0px 0px;
+    font-size:12px;   
+}
+
+.wrapfrmright aside.first header{
+    display:block;
+    height:36px;
+    line-height:36px;
+}
+.wrapfrmright aside header p{
+    width:32%; 
+    float:left;
+    margin: 0px 3px 0px 0px;
+    font-size:12px;  
+}
+.wrapfrm_search aside header p{
+    padding-left: 10px;
+    width: 45%;
+}
+.wrapfrm_search aside header p label{
+    font-weight:bold;
+}
+.wrapfrm_search label{
+    font-weight:bold;
+    color:#3b5998;
+}
+.wrapfrmright aside header label{    
+    padding:0px 2px;
+    color: #fff;
+}
+.wrapfrmright aside header label{
+    font-size: 11px;
+}
+.wrapfrmright aside header label.ht{
+    float: left;
+    padding-right: 20px;
+}
+.wrapfrmright aside .content{ 
+    float: left;
+    /*  margin-top: 8px;*/
+    width: 100%;
+}
+.wrapfrmright aside .content .content-left{
+    width:40%;
+    float:left;  
+}
+.wrapfrmright aside .content .content_right{
+    width:60%;
+    float:left;  
+}
+.wrapfrmright aside .first-content .bg_date{
+    margin-top: 7px;
+}
+.first-content .bg_date {
+    border-top: 1px solid #fff;
+    float: left;
+    width: 100%;
+}
+.wrapfrmright aside .content input[type="text"].city{
+    color: #666666;
+    font-size: 12px;
+    height: 25px;
+    width: 95%;
+    font-weight: bold;
+
+}
+.wrapfrmright aside .content input[type="text"]{
+    color: #000;
+    width: 95%;
+    font-weight: bold;
+}
+#quantity-adt,#quantity-chd,#quantity-inf{
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 15px;
+    width: 80px;
+}
+.wrapfrmright aside .content .aut{
+    color: #000;
+    line-height: 20px;
+    margin-left: 0;
+    margin-top: 7px;
+    position: relative;
+    width: 100%;
+
+}
+.content .soluong{
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.wrapfrmright aside .content div.butonsearch{
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+.wrapfrmright aside .content .inf select{
+    float: left
+}
+.wrapfrmright aside .content .inf select, .wrapfrmright aside .content .aut select, .wrapfrmright aside .content .chd select{
+    border: 1px solid #909090;
+    color: #646464;
+    font-weight: bold;
+    height: 35px;
+    padding-left: 14px;  
+}
+.wrapfrmright aside .content .aut select, .wrapfrmright aside .content .chd select{
+    float: left;  
+}
+.wrapfrmright aside .content .aut p, .wrapfrmright aside .content .chd p, .wrapfrmright aside .content .inf p {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 38px;
+}
+.wrapfrmright aside .content .inf select{
+    width: 120px; 
+    margin-right: 20px;
+}
+.wrapfrmright aside .content .aut select{
+    width: 120px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+.wrapfrmright aside .content .chd select{
+    width: 120px;
+    margin-right: 20px;
+}
+.wrapfrmright aside .content .inf {
+    margin-top: 15px;
+}
+.wrapfrmright aside .content .chd,.wrapfrmright aside .content .inf{
+    color: #000;
+    line-height: 21px;
+    margin-left: 0;
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+
+}
+.wrapfrmright aside .content .inf label,.wrapfrmright aside .content .chd label{
+    float: left;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 5px 0 0;
+    width: 100px;
+}
+.wrapfrmright aside .content .aut label{
+    float: left;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 5px 0 0;
+    width: 100px;
+}
+.wrapfrmright aside .content .aut p.quantity, .wrapfrmright aside .content .chd p.quantity, .wrapfrmright aside .content .inf p.quantity{
+    float:left;
+    margin-right: 7px;
+}
+.wrapfrmright aside .content .aut p.quantity .wrap-quantity{
+    width:30% !important;
+    height:40px
+}
+.sanbay{overflow: auto;}
+
+.butonsearch .cmdsearch{width:310px}
+
+#frmsearchair ul.hanhtrinh{list-style: none;margin:0px;padding: 0;}
+#frmsearchair ul.hanhtrinh li{float:left;width:33%;margin:0;padding:0}
+div.chd{margin-left:15px;}div.inf{margin-left:15px;}
+.floatleft{float: left;
+margin-left: 3px;}
+.floatright{float:right}
+.wrapfrmright .res, .wrapfrmright .des{width:48%;}  
+.wrapfrmright .floatleft.res .city{
+    float:right;  
+    margin-right: 0;
+}
+.wrapfrmright .resday{
+    float: left;
+    margin-top: 10px;
+    width: 97%;
+}
+.wrapfrmright .date.retDate.hasDatepicker {
+    float: right;
+    margin-right: 0;
+}
+.wrapfrmright .floatleft.res > label {
+    padding-left: 12px;
+}
+.res, .des, .datedes{width:49%;margin-top:7px}             
+input.date{
+    height: 27px;
+    background: url("../image/calender.png") no-repeat scroll 90% center #ffffff;
+    border: 1px solid #909090;
+    font-size: 13px;
+}
+.floatleft.resday > label {
+    display: block;
+}
+
+.resday .ui-datepicker-trigger {
+    background: none repeat scroll 0 0 #006699;
+    padding: 2px 10px;
+}
+
+input[type="radio"]:hover{
+    cursor:pointer;
+}
+.results tr td img:hover{cursor: pointer;}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+select#adt_nd, select#chd_nd, select#INF{   
+    width:60%;
+    height: 30px;   
+    background-color: #ddd !important;
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px;    
+    font-family: "tahoma", sans-serif;
+    font-size: 11px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.wrapfrmright span.disable_date {
+    background: none repeat scroll 0 0 #006699;
+    height: 55px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: -1px;
+    width: 99%;
+}
+.wrapfrmright .floatleft.res > label {
+    display: block;
+    padding: 0;
+}
+.wrapfrmright span.disable_date {
+    background: none repeat scroll 0 0 #006699;
+    height: 60px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+}
+.aut .quantity a.add{
+    background: url(../image/atop.png) no-repeat;
+    height: 8px;
+    left: 65px;
+    position: absolute;
+    top: 10px;
+    width: 13px;
+}    
+
+.quantity{
+    position:relative;
+}      
+
+.aut .quantity a.clear{
+    background: url(../image/adown.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    display: block;
+    left: 66px;
+    top: 20px;
+}
+.chd .quantity a.clear{
+    background: url(../image/adown.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    display: block;
+    left: 67px;
+    top: 18px;
+}  
+.inf .quantity a.clear{
+    background: url("../image/adown.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 8px;
+    position: absolute;
+    right: 5px;
+    top: 19px;
+    width: 13px;
+} 
+.chd .quantity a.add{
+    background: url("../image/atop.png") no-repeat scroll 0 0 transparent;
+    height: 8px;
+    left: 66px;
+    position: absolute;
+    top: 7px;
+    width: 13px;
+} 
+.inf .quantity a.add{
+    background: url("../image/atop.png") no-repeat scroll 0 0 transparent;
+    height: 8px;
+    right: 6px;
+    position: absolute;
+    top: 7px;
+    width: 13px;
+    display: block;
+} 
+.butonsearch input {
+    background: #003366;
+    border: 0 none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 46px;
+    padding: 0 25px;
+    text-transform: uppercase;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius:5px;
+    border-radius: 5px;
+} 
+.wrapfrm_search .butonsearch input{
+    font-weight: bold;
+    margin-left: 2px !important;
+}
+.wrapfrm_search .butonsearch a{
+    float: right;
+    font-weight: bold;
+    margin-left: 1px !important;
+    margin-right: 2px;
+    padding: 0;
+}
+.butonsearch a{
+    -moz-box-sizing: border-box;
+    background-color: #e1e1e1 !important;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+    color: #444444;
+    font-family: tahoma,"PT Sans",sans-serif;
+    font-size: 11px;
+    height: 40px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-weight: normal;
+    text-align: center;
+    margin-left:2% !important;
+    line-height: 40px;
+    padding:12px;text-decoration: none;
+}
+.butonsearchform{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+.butonsearchform a{
+    background: none repeat scroll 0 0 #003366;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 46px;
+    padding: 0 25px;
+    line-height: 46px;
+    display: block;
+    margin:0 34%;
+    width:117px;
+    text-transform: uppercase;
+}
+div.butonsearch{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.wrapfrmright div.butonsearch{
+    margin-right:0; 
+}
+.wrapfrmright aside .content .aut select {
+    width: 93px;
+    margin-top: 2px;
+}
+.wrapfrmright aside .content .aut {
+    margin-top: 15px;
+}
+.wrapfrmright aside .content .chd select {
+    width: 93px;
+}
+.wrapfrmright .aut .bg_select_aut {
+    right: 13px;
+}
+.wrapfrmright aside .content .chd {
+    margin-top: 15px;
+}
+.wrapfrmright aside .content .inf select {
+    width: 95px;
+}
+
+.wrapfrmright aside .content .chd .bg_select_chd {
+    right: 6px;
+}

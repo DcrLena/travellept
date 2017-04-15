@@ -1,0 +1,533 @@
+/**search tiket **/
+.wrapfrm{
+    background-color: rgba(0, 102, 153, 0.43);/* none repeat scroll 0 0 #006699;*/
+    -webkit-border-radius: 0px 10px 10px 10px;
+    -moz-border-radius: 0px 10px 10px 10px;
+    -khtml-border-radius: 0px 10px 10px 10px;
+    border-radius: 0px 10px 10px 10px;
+    color: #0270b5;
+    display: block;
+    float: left;      
+    position: absolute;
+    top: 88px;
+    width: 320px;
+    left: 245px;
+    z-index: 99;
+    
+    
+    
+}
+.wrapfrm aside.first{
+    margin: 3px;
+}
+.wrapfrm form{
+    display:block;   
+}
+.wrapfrm aside.first .first-content{
+    padding: 0px 15px 7px;
+    overflow: hidden;   
+}
+.wrapfrm footer{
+
+    text-align:center;
+}
+.wrapfrm aside{
+}  
+.ajax_loader{
+    background:url(../image/loading42.gif) repeat;
+    width:168px;height:40px;
+    top:45px;
+    left:40%;
+    position:absolute;
+}
+.wrapfrm aside header h2{
+    color:#fff;
+    text-align:center;
+    text-transform:uppercase;
+}
+.wrapfrm aside label{    
+    color: #006699;
+    font-size: 12px;
+    font-weight: bold;
+}
+.wrapfrm aside .content input[type="text"].city{
+    width:95%;
+    background: url("../image/bg_des_citi.png") no-repeat scroll 90% center #ffffff;
+    border: 1px solid #909090;
+    color: #000000;
+    font-size: 13px;
+    height: 18px;
+    text-transform: capitalize;
+}
+.wrapfrm aside .content input[type="text"]{
+    width: 95%;
+    font-size: 12px;
+}
+#quantity-adt,#quantity-chd,#quantity-inf{
+    width:45px;height:22px;
+    background: none;
+}
+
+.wrapfrm aside .content .aut p.quantity{
+    float:left;
+    height:40px;line-height: 40px;
+}
+.wrapfrm aside .content .aut p.quantity .wrap-quantity{
+    width:30% !important;
+    height:40px
+}
+.sanbay{overflow: auto;}
+
+.butonsearch .cmdsearch{width:310px}
+
+#frmsearchair ul.hanhtrinh{list-style: none;margin:0px;padding: 0;}
+#frmsearchair ul.hanhtrinh li{float:left;width:33%;margin:0;padding:0}
+.floatright{float:right}               
+
+
+input[type="radio"]:hover{
+    cursor:pointer;
+}
+.results tr td img:hover{cursor: pointer;}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+.wrapfrm aside .content .aut{
+    float:left;
+        width: 35%;  
+}
+.content .soluong{
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.wrapfrm aside .content div.butonsearch{
+    margin-top:20px;
+}
+.wrapfrm aside .content .inf select{
+    float: left
+}
+.wrapfrm aside .content .inf select, .wrapfrm aside .content .aut select, .wrapfrm aside .content .chd select{
+ border: 1px solid #909090;
+    color: #646464;
+    font-weight: bold;
+    height: 28px; 
+}
+
+.wrapfrm aside .content .aut select, .wrapfrm aside .content .chd select{
+    float: left;  
+}
+.wrapfrm aside .content .aut p, .wrapfrm aside .content .chd p, .wrapfrm aside .content .inf p {
+     color: #ff6600;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.wrapfrm aside .content .inf select{
+    margin-top: 6px;
+    width: 80px;
+}
+.wrapfrm aside .content .aut select{
+    width: 70px;
+    margin-top: 6px;
+}
+.wrapfrm aside .content .chd select{
+ margin-top: 5px;
+    width: 77px;  
+}
+.wrapfrm aside .content .chd{
+float:left;
+       width: 32%;  
+}
+.wrapfrm aside .content .inf{
+    float:right;
+        width: 28%;  
+}
+.wrapfrm aside .content .aut, .wrapfrm aside .content .chd,.wrapfrm aside .content .inf{
+         position: relative;
+    margin-top:15px;
+        color: #000;
+    line-height: 20px;
+}
+.wrapfrm aside .content .inf label,.wrapfrm aside .content .chd label{
+    float: left;
+   font-size: 14px;
+    padding: 0 5px 0 0;
+    
+}
+.wrapfrm aside .content .chd label{
+     width: 75px; 
+}
+.wrapfrm aside .content .inf label{
+    width: 75px; 
+}
+.wrapfrm aside .content .aut label{
+    float: left;
+    padding: 0 5px 0 0;
+    font-size: 14px;
+    width: 75px;
+}
+.wrapfrm aside .content .aut p.quantity, .wrapfrm aside .content .chd p.quantity, .wrapfrm aside .content .inf p.quantity{
+    float:left;
+    margin-right: 7px;
+}
+.wrapfrm aside .content .aut p.quantity .wrap-quantity{
+    width:30% !important;
+    height:40px
+}
+.wrapfrm .floatleft .city{
+    float:right;  
+    margin-right: 0;
+}
+.wrapfrm .date.retDate.hasDatepicker {
+    float: right;
+    margin-right: 0;
+}
+.wrapfrm .floatleft.res > label{
+     line-height: 40px;
+    width: 20%;
+}
+.res, .des, .datedes{width:100%;margin-top:7px}     
+.floatleft.res {
+    float: left;
+    margin-top: 0px;
+}
+input.date{
+    height: 27px;
+    background: url("../image/calender.png") no-repeat scroll 90% center #ffffff;
+    border: 1px solid #909090;
+    font-size: 13px;
+}
+.floatleft.resday > label {
+    display: block;
+}
+
+.resday .ui-datepicker-trigger {
+    background: none repeat scroll 0 0 #006699;
+    padding: 2px 10px;
+}
+
+input[type="radio"]:hover{
+    cursor:pointer;
+}
+.results tr td img:hover{cursor: pointer;}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+select#adt_nd, select#chd_nd, select#INF{   
+    width:60%;
+    height: 30px;   
+    background-color: #ddd !important;
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px;    
+    font-family: "tahoma", sans-serif;
+    font-size: 11px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.wrapfrm span.disable_date {
+    background: none repeat scroll 0 0 #006699;
+    height: 55px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: -1px;
+    width: 99%;
+}
+.aut .quantity a.add{
+    background: url(../image/atop.png) no-repeat;
+    height: 8px;
+    left: 65px;
+    position: absolute;
+    top: 10px;
+    width: 13px;
+}    
+
+.quantity{
+    position:relative;
+}      
+
+.aut .quantity a.clear{
+    background: url(../image/adown.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    display: block;
+    left: 66px;
+    top: 20px;
+}
+.chd .quantity a.clear{
+    background: url(../image/adown.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    display: block;
+    left: 67px;
+    top: 18px;
+}  
+.inf .quantity a.clear{
+    background: url("../image/adown.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 8px;
+    position: absolute;
+    right: 5px;
+    top: 19px;
+    width: 13px;
+} 
+.chd .quantity a.add{
+    background: url("../image/atop.png") no-repeat scroll 0 0 transparent;
+    height: 8px;
+    left: 66px;
+    position: absolute;
+    top: 7px;
+    width: 13px;
+} 
+.inf .quantity a.add{
+    background: url("../image/atop.png") no-repeat scroll 0 0 transparent;
+    height: 8px;
+    right: 6px;
+    position: absolute;
+    top: 7px;
+    width: 13px;
+    display: block;
+} 
+.butonsearch input {
+    background: #003366;
+    border: 0 none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 46px;
+    padding: 0 25px;
+    text-transform: uppercase;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius:5px;
+    border-radius: 5px;
+} 
+.butonsearch a{
+    -moz-box-sizing: border-box;
+    background-color: #e1e1e1 !important;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+    color: #444444;
+    font-family: tahoma,"PT Sans",sans-serif;
+    font-size: 11px;
+    height: 40px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-weight: normal;
+    text-align: center;
+    margin-left:2% !important;
+    line-height: 40px;
+    padding:12px;text-decoration: none;
+}
+.butonsearchform{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+.butonsearchform a{
+    background: none repeat scroll 0 0 #003366;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 46px;
+    padding: 0 25px;
+    line-height: 46px;
+    display: block;
+    margin:0 26%;
+    width:117px;
+    text-transform: uppercase;
+}
+div.butonsearch{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+select#adt_nd, select#chd_nd, select#INF{   
+    width:60%;
+    height: 30px;   
+    background-color: #ddd !important;
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px;    
+    font-family: "tahoma", sans-serif;
+    font-size: 11px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+span.disable_date {
+    position: absolute;
+    top: 18px;
+    left: 22px;
+    opacity: 0.5;
+    background: #DDD;
+    width: 87%;
+    height: 23px;
+}
+.aut .quantity a.add{
+    background: url(../image/atop.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    top: 9px;left:31px
+}    
+
+.quantity{
+    position:relative;
+}      
+
+.aut .quantity a.clear{
+    background: url(../image/adown.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    display: block;
+    left: 32px;
+    top: 20px;
+}
+.chd .quantity a.clear,.inf .quantity a.clear{
+    background: url(../image/adown.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    display: block;
+    right: 80px;
+    top: 20px;
+}   
+.chd .quantity a.add{
+    background: url(../image/atop.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    top: 9px;
+    left: 144px;
+} 
+.butonsearch a{
+    background-color: #e1e1e1 !important;
+    border: 0 none;text-decoration: none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+    color: #444444;
+    font-family: tahoma,"PT Sans",sans-serif;
+    font-size: 14px;   
+    font-weight: bold;
+    line-height: 36px;
+    height: 36px;
+    padding: 14px 2%;
+
+}
+.wrapfrm aside.header{
+/*    background: url("../image/bg_wrap_home.png") no-repeat scroll 0 0;*/
+    display: block;
+    height: 38px;
+    overflow: hidden;
+    width: 100%;
+    z-index: 999;
+}
+.wrapfrm aside.header header{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    width: 100%;
+}
+.floatleft.datedes > label {
+    display: block;
+    float: left;
+    line-height: 25px;
+    width: 22%;
+}
+.floatleft.datedes {
+    float: left;
+    margin-top: 6px;
+}
+.wrapfrm aside.header header h2{
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-align: left;
+    text-indent: 33px;
+    text-transform: uppercase;
+  /*  background: url("../image/icon_bg_wrapfrm_home.png") no-repeat scroll 10px center;*/
+}
+.wrapfrm aside.first header{
+    display:block;
+    height:27px;
+    line-height:27px;
+}
+.wrapfrm aside header p{
+    width:32%; 
+    float:left;
+    margin: 0px 3px 0px 0px;
+    font-size:12px;  
+}
+.wrapfrm aside header label{    
+    padding:0px 2px;
+    color: #fff;
+}
+.wrapfrm aside header label.ht{
+    float: left;
+    padding-right: 20px;
+}
+.wrapfrm aside .content{ 
+    float: left;
+    /*  margin-top: 8px;*/
+    width: 100%;
+}
+.wrapfrm aside .content .content-left{
+    width:40%;
+    float:left;  
+}
+.wrapfrm aside .content .content_right{
+    width:60%;
+    float:left;  
+}
+.wrapfrm aside .first-content .bg_date{
+    margin-top: 7px;
+}
+.wrapfrm aside .content input[type="text"].city{
+    color: #666666;
+    font-size: 12px;
+    height: 20px;
+    width: 76%;
+    font-weight: bold;
+}
+.floatleft.des > label {
+    display: block;
+    float: left;
+    line-height: 40px;
+    width: 20%;
+}
+.wrapfrm aside .content input[type="text"]{
+    color: #000;
+    width: 95%;
+    font-weight: bold;
+}
